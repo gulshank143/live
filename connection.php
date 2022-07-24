@@ -1,23 +1,15 @@
 <?php
 
-$conn = "";
-
-try {
 	$servername = "localhost:3306";
 	$dbname = "wheelsup";
 	$username = "root";
 	$password = "";
 
-	$conn = new PDO(
-		"mysql:host=$servername; dbname=wheelsup",
-		$username, $password
-	);
+	$conn = mysqli_connect($servername,$username,$password,$dbname);
 	
-$conn->setAttribute(PDO::ATTR_ERRMODE,
-					PDO::ERRMODE_EXCEPTION);
-}
-catch(PDOException $e) {
-	echo "Connection failed: " . $e->getMessage();
-}
+	if(! $conn)
+	{
+		die('could not connect to database !<br>'.mysqli_error());
+	}
 
 ?>
