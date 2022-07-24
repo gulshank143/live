@@ -16,22 +16,22 @@
 		}
 		h1 {font-family: 'Courier New', monospace;}
 		a:link {
-		  color: yellow;
+		  color: white;
 		  background-color: transparent;
 		  text-decoration: none;
 		}
 		a:hover {
-		  color: orange;
+		  color: red;
 		  background-color: transparent;
 		  text-decoration: underline;
 		}
 		a:visited{
-			color: yellow;
+			color: white;
 			background-color: transparent;
 		    text-decoration: none;
 		}
 		a:active{
-			color: yellow;
+			color: white;
 			background-color: transparent;
 		    text-decoration: none;
 		}

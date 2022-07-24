@@ -2,7 +2,8 @@
 <html>
 <head>
 	<title>xyz</title>
-<style>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" rel="stylesheet">
+  <style>
 	.all-cars {
 		margin: 0;
 		padding: 5px;
@@ -21,7 +22,7 @@
 	}
 	footer{
 		text-align: center;
-        padding: 3px;
+        padding: 6px;
         background-color: darksalmon;
         color: white;
 	}
@@ -31,10 +32,16 @@
 </head>
 <body>
 
-<img src="images/footer1.jpg" height=180 width=1500 border="2 px solid black">
+<img src="images/footer1.jpg" height=200 width=1500 border="2 px solid black">
 <footer>
-	<p>Auther: Wheels Up<br>
-		<a href="malito:WheelsUp@example.com">WheelsUp@example.com</a>
+	<p1>Auther: Wheels Up<br>
+		<i class="bi bi-envelope-fill"></i>&nbspWheelsUp@example.com<br>
+		<i class="bi bi-pin-fill"></i>&nbspNearby Railway Station Jaipur, 302006<br>
+		<i class="bi bi-telephone-fill"></i>&nbsp01865353665</a><br><br>
+		<a href = "www.facebook.com/wheelsup"><i class="bi bi-facebook"></i></a>&nbsp&nbsp&nbsp&nbsp
+		<a href = "www.instagram.com/wheelsup"><i class="bi bi-instagram"></i></a>&nbsp&nbsp&nbsp&nbsp
+		<a href = "www.twitter.com/wheelsup"><i class="bi bi-twitter"></i></a>&nbsp&nbsp&nbsp&nbsp
+		<a href = "www.google.com/wheelsup"><i class="bi bi-google"></i></a>&nbsp&nbsp&nbsp&nbsp		
 	</p>
 </footer>
 </body>
