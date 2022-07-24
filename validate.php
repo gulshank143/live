@@ -15,11 +15,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	$username = test_input($_POST["username"]);
 	$password = test_input($_POST["password"]);
 	$stmt = $conn->prepare("SELECT * FROM user");
+	
+	$count = 10000;				// number of users. it is used to continue the loop for checking login info !
+	
 	$stmt->execute();
 	$users = $stmt->fetchAll();
 	
 	foreach($users as $user) {
-		
+
 		if(($user['email'] == $username) &&
 			($user['password'] == $password)) {
 				session_start();
@@ -27,6 +30,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 $_SESSION['name'] = $user['name'];
                 $_SESSION['id'] = $user['id'];
 				header("location: adminpage.php");
+		}
+		else
+		if($count!=0)
+		{
+			continue;
+			$count--;
 		}
 		else {
 			echo "<script language='javascript'>";
