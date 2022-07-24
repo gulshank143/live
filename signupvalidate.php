@@ -19,8 +19,7 @@ $sql = "INSERT INTO user(name, age, address, aadhar, email, mob, password) VALUE
 
 if(mysqli_query($conn,$sql))
 {
-    echo "<h1>Account Created Successfully:\nGo to login page and login now !";
-    echo "<a href='index.php'>Click here to go back </a>";
+    include "signup_successful.php";
 }
 else
 {
