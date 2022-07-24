@@ -27,17 +27,11 @@
 	}
 	
 </style>
-}
+
 </head>
 <body>
-	<article class="all-cars">
-		<h1>Most Popular Cars</h1>
-		<article class="car">
-			<h2>Bolero</h2>
-			<p>Bolero is a 7 seater compact SUV available.The bolero is available in 3 colors.</p>
-			
-		</article>
-	</article>
+
+<img src="images/footer1.jpg" height=180 width=1500 border="2 px solid black">
 <footer>
 	<p>Auther: Wheels Up<br>
 		<a href="malito:WheelsUp@example.com">WheelsUp@example.com</a>
