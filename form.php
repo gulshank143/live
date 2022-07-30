@@ -49,13 +49,13 @@
 					<option value="Honda">Honda</option>
 					<option value="Ford">Ford</option>
 					<option value="Mercedes-Benz">Mercedes-Benz</option>
-					<option value="Jeep">Jeep</option>
+					<option value="Chevrolet">Chevrolet</option>
 					<option value="Audi">Audi</option>
-					<option value="Ferrari">Ferrari</option>
+					<option value="GMC">GMC</option>
 					<option value="Volvo">Volvo</option>
                     <option value="Hyundai">Hyundai</option>
                     <option value="Suzuki">Suzuki</option>
-                    <option value="Mini">Mini</option>    
+                    <option value="Lexus">Lexus</option>    
 				</select><br>
 
 			<br><button onclick="myfunction()" style="background-color: gray">Calculate </button>
