@@ -50,7 +50,7 @@ content="width=device-width,initial scale=1">
 </head>
 <body>
 
-	<img src="images/logo.jpg" height="100" width="110" align="left">
+	<img src="images/logo.jpg" height="105" width="110" align="left">
 	<h1 class="header"><b>WHEELS UP</b></h1>
 
 	<!-- Navigation -->

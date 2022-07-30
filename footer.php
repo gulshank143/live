@@ -33,12 +33,12 @@
 
 </head>
 <body>
-
+<hr style="border-width: 1px; background-color: black">
 <img src="images/footer1.jpg" height=200 width=1500 border="2 px solid black">
 <footer>
 	<p1>Auther: Wheels Up<br>
 		<i class="bi bi-envelope-fill"></i>&nbspWheelsUp@example.com<br>
-		<i class="bi bi-pin-fill"></i>&nbspNearby Railway Station Jaipur, 302006<br>
+		<i class="bi bi-pin-fill"></i>&nbspNearby Jaipur International Airport, 302029<br>
 		<i class="bi bi-telephone-fill"></i>&nbsp01865353665</a><br><br>
 		<a href = "www.facebook.com/wheelsup"><i class="bi bi-facebook"></i></a>&nbsp&nbsp&nbsp&nbsp
 		<a href = "www.instagram.com/wheelsup"><i class="bi bi-instagram"></i></a>&nbsp&nbsp&nbsp&nbsp
