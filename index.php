@@ -5,25 +5,22 @@
 </head>
 <body>
 
-<?php
-require_once 'header.php';
-?>
+    <?php
+        require_once 'header.php';
+    ?>
 
-<h1> kaam ho gaya start behenchod </h1>
+<h6>
+    <?php
+        require_once 'form.php';
+    ?>
+ 	
+</h6>
 
-<h1> kaam ho gaya start behenchod </h1>
-<h1> kaam ho gaya start behenchod </h1>
-<h1> kaam ho gaya start behenchod </h1>
-<h1> kaam ho gaya start behenchod </h1>
-<h1> kaam ho gaya start behenchod </h1>
-<h1> kaam ho gaya start behenchod </h1>
-<h1> kaam ho gaya start behenchod </h1>
-<h1> kaam ho gaya start behenchod </h1>
-
-
-<?php
-require_once 'footer.php';
-?>
+<h6>
+    <?php
+        require_once 'footer.php';
+    ?>
+</h6>
 
 </body>
 </html>
