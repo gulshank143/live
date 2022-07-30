@@ -16,7 +16,7 @@
  	
 </h6>
 
-<h6>
+
     <?php
         require_once 'footer.php';
     ?>

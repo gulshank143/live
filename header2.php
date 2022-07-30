@@ -54,12 +54,12 @@ content="width=device-width,initial scale=1">
 </head>
 <body>
 
-	<img src="images/logo.jpg" height="100" width="110" align="left">
+	<img src="images/logo.jpg" height="105" width="110" align="left">
 	<h1 class="header"><b>WHEELS UP</b></h1>
 
 	<!-- Navigation -->
 	<nav>
-<h2><pre><a href="index.php" >Home</a>    <a href="book.php" >Booknow</a>    <a href="about.php" >About</a>    <a href="contact.php" >Contact Us</a>    <a href="feedback.php">Feedback</a>            <font color = "red"> hello, <?php echo $_SESSION['name']; ?></font>     <a href="logout.php">Log Out</a> </pre>
+<h2><pre><a href="adminpage.php" >Home</a>    <a href="book.php" >Booknow</a>    <a href="about.php" >About</a>    <a href="contact.php" >Contact Us</a>    <a href="feedback.php">Feedback</a>            <font color = "red"> Hello, <?php echo $_SESSION['name']; ?></font>     <a href="logout.php">Log Out</a> </pre>
 </h2>
 	</nav>
 	
