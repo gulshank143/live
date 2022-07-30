@@ -2,7 +2,10 @@
 <html>
 <head>
 	<title>apply for car</title>
+	<meta name=”viewport” content=”width=device-width, initial-scale=1.0">
 	<link rel="icon" type="image/x-icon" href="images\favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<style type="text/css">
 
 		h2 {background: black}
@@ -21,7 +24,7 @@
 		  text-decoration: none;
 		}
 		a:hover {
-		  color: red;
+		  color: blue;
 		  background-color: transparent;
 		  text-decoration: underline;
 		}
@@ -48,20 +51,11 @@ content="width=device-width,initial scale=1">
 <body>
 
 	<img src="images/logo.jpg" height="100" width="110" align="left">
-	<h1 class="header">WHEELS UP</h1>
+	<h1 class="header"><b>WHEELS UP</b></h1>
 
 	<!-- Navigation -->
 	<nav>
-<h2>	<a href="index.php" >Home</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-		<a href="book.php" >Booknow</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-		<a href="about.php" >About</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-		<a href="contact.php" >Contect</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-		<a href="feedback.php">Feedback</a> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-		&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-		&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-		&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-		<a href="login.php">Login</a>&nbsp&nbsp&nbsp
-		<a href="signup.php">Sign Up </a>
+<h2><pre><a href="index.php" >Home</a>    <a href="book.php" >Booknow</a>    <a href="about.php" >About</a>    <a href="contact.php" >Contact Us</a>    <a href="feedback.php">Feedback</a>                                 <a href="login.php">Login</a>  <a href="signup.php">Sign Up</a> </pre>
 </h2>
 	</nav>
 

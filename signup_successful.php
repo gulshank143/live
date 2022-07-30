@@ -4,11 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <title>Registration Successful Message Example</title>
     <meta name="author" content="Codeconvey" />
     <!--- ALL CSS FILES BETWEEN TWO COMMENTS LINES --->
 <style>
-    @import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900');
+   
 html {
   box-sizing: border-box;
 }
