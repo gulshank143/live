@@ -27,6 +27,7 @@
         padding: 6px;
         background-color: darksalmon;
         color: white;
+        font-size: 22px;
 	}
 	
 </style>
