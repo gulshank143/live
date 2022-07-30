@@ -8,6 +8,8 @@ if (isset($_SESSION['id']) && isset($_SESSION['username']))
 <head>	
 	<title>apply for car</title>
 	<link rel="icon" type="image/x-icon" href="images\favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<style type="text/css">
 
 		h2 {background: black}
@@ -21,22 +23,22 @@ if (isset($_SESSION['id']) && isset($_SESSION['username']))
 		}
 		h1 {font-family: 'Courier New', monospace;}
 		a:link {
-		  color: yellow;
+		  color: white;
 		  background-color: transparent;
 		  text-decoration: none;
 		}
 		a:hover {
-		  color: orange;
+		  color: blue;
 		  background-color: transparent;
 		  text-decoration: underline;
 		}
 		a:visited{
-			color: yellow;
+			color: white;
 			background-color: transparent;
 		    text-decoration: none;
 		}
 		a:active{
-			color: yellow;
+			color: white;
 			background-color: transparent;
 		    text-decoration: none;
 		}
@@ -53,21 +55,12 @@ content="width=device-width,initial scale=1">
 <body>
 
 	<img src="images/logo.jpg" height="100" width="110" align="left">
-	<h1 class="header">WHEELS UP</h1>
+	<h1 class="header"><b>WHEELS UP</b></h1>
 
 	<!-- Navigation -->
 	<nav>
-<h2>	<a href="index.php" >Home</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-		<a href="book.php" >Booknow</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-		<a href="about.php" >About</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-		<a href="contact.php" >Contect</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-		<a href="feedback.php">Feedback</a> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-		&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-		&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-		Hello,&nbsp<?php echo $_SESSION['name']; ?>&nbsp&nbsp&nbsp&nbsp
-		<a href="logout.php">Log Out</a>
-
+<h2><pre><a href="index.php" >Home</a>    <a href="book.php" >Booknow</a>    <a href="about.php" >About</a>    <a href="contact.php" >Contact Us</a>    <a href="feedback.php">Feedback</a>            <font color = "red"> hello, <?php echo $_SESSION['name']; ?></font>     <a href="logout.php">Log Out</a> </pre>
 </h2>
 	</nav>
-
+	
 </html>
