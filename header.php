@@ -40,8 +40,36 @@
 		}
 		.centerimage{text-align: center; display: block;}
 
-		
-		
+
+		.animate-charcter
+		{
+			text-transform: uppercase;
+			background-image: linear-gradient(
+				-225deg,
+				#231557 0%,
+				#44107a 29%,
+				#ff1361 67%,
+				#fff800 100%
+				);
+			background-size: auto auto;
+			background-clip: border-box;
+			background-size: 200% auto;
+			color: #fff;
+			background-clip: text;
+			text-fill-color:transparent;
+			-webkit-background-clip:text;
+			-webkit-text-fill-color:transparent;
+			animation: textclip 2s linear infinite;
+			display: inline-block;
+			font-size: 130px;
+		}
+		@keyframes textclip {
+			to{
+				background-position: 200% center;
+			}
+		}
+
+	
 	</style>
 <meta charset="utf-8">
 <meta name="viewport"
@@ -50,8 +78,16 @@ content="width=device-width,initial scale=1">
 </head>
 <body>
 
-	<img src="images/logo.jpg" height="105" width="110" align="left">
-	<h1 class="header"><b>WHEELS UP</b></h1>
+	<img src="images/logo.jpg" height="145" width="145" align="left">
+	<img src="images/header2.jpg" height="145" width="145" align="right">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-center">
+	<h1  class="animate-charcter"><b>WHEELS UP</b></h1>
+            </div>
+        </div>
+</div>
+
 
 	<!-- Navigation -->
 	<nav>

@@ -27,6 +27,18 @@
 .p5{
         font-size: 26px;
 }
+
+.lla{
+    text-align: center;
+        background-color: lightgreen;
+        color: white;
+  }
+.p3{
+  font-size: 40px;
+}
+.p6{
+        font-size: 26px;
+}
 .button{
 	color: green;
 	padding: 20px;
@@ -116,12 +128,12 @@ img {vertical-align: middle;}
 /* Fading animation */
 .fade {
   animation-name: fade;
-  animation-duration: 3s;
+  animation-duration: 86400s;
 }
 
 @keyframes fade {
-  from {opacity: 0.1} 
-  to {opacity: 1}
+  from {opacity: .86399} 
+  to {opacity: 86400}
 }
 
 /* On smaller screens, decrease text size */
@@ -144,19 +156,19 @@ img {vertical-align: middle;}
 
 <div class="mySlides fade">
   <div class="numbertext">1 / 3</div>
-  <img src="images/image.jpg" style="width:100%">
+  <img src="images/image.jpg" style="width:100%" onclick="currentSlide(1)">
   <div class="text">Yeh pata nhi kya hai</div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">2 / 3</div>
-  <img src="images/city.jpg" style="width:100%">
+  <img src="images/city.jpg" style="width:100%" onclick="currentSlide(2)">
   <div class="text">Jaipur City</div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">3 / 3</div>
-  <img src="images/car3.jpg" style="width:100%">
+  <img src="images/car3.jpg" style="width:100%" onclick="currentSlide(3)">
   <div class="text">Our Cars</div>
 </div>
 
@@ -200,20 +212,20 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 </script>
-
+<br>
 <h6><br>
     <?php
         require_once 'form.php';
     ?>
  	
 </h6>
-<br>
+<br> <br>
 <div class="llm">
 	<p class="p1">Reserve a car Today!</p>
 	<p class="p4">If you are looking to reserve a vehicle,we would love to here from you!</p>
 	<br><a href="book.php"><button class="button" style="background-color: white;">Book Now</button></a>
 </div>
-<br>
+<br><br>
 <div class="lln">
 	<p class="p2">Great Service and Great Vehicles</p>
 	<p class="p5">After a long flight, nobody wants to have to deal with rude staff and unkempt vehicles. When you choose the services of Wheels-UP you can expect to deal with a great staff of friendly people who are eager to serve you.<br><br>
@@ -221,7 +233,19 @@ function showSlides(n) {
    <br><a href="explore.php"><button class="button" style="background-color: white;">Explore Now</button></a>
 	
 </div>
+<br><br>
+<div class="lla">
+  <p class="p3" style="margin: 0px 780px 20px 0px">Save Yourself Money</p>
+       <img src="images/ladki.jpg" class="img-fluid" alt="Sample image" style="margin: -300px 10px -500px 600px">
+  <p class="p6" style="margin: 20px 780px 20px 50px">We seek opportunity to save our customers money.That is why if you rent a car from us 6 days,we will give you a 7th day for free! Also, senior citizens can expect a 15% discount for there rental.</p>
+  <br><a href="explore1.php"><button class="button" style="background-color: white;">Explore Now</button></a>
+</div>
 
+ <div class="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2">
+
+               
+
+</div>
 
     <?php
         require_once 'footer.php';

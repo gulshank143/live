@@ -44,16 +44,16 @@
 			<br><label>Choose a car:
 				<select class="car" name="car">
 					<option value="">select one...</option>
-					<option value="BMW">BMW</option>
-					<option value="Toyota">Toyota</option>
-					<option value="Honda">Honda</option>
-					<option value="Ford">Ford</option>
+					<option value="BMW X5">BMW X5</option>
+					<option value="Toyota Camry">Toyota Camry</option>
+					<option value="Honda City">Honda City</option>
+					<option value="Ford Aspire">Ford Aspire</option>
 					<option value="Mercedes-Benz">Mercedes-Benz</option>
-					<option value="Chevrolet">Chevrolet</option>
+					<option value="Chevrolet Tahoe">Chevrolet Tahoe</option>
 					<option value="Audi">Audi</option>
-					<option value="GMC">GMC</option>
+					<option value="GMC Yukon">GMC Yukon</option>
 					<option value="Volvo">Volvo</option>
-                    <option value="Hyundai">Hyundai</option>
+                    <option value="Hyundai Creta">Hyundai Creta</option>
                     <option value="Suzuki">Suzuki</option>
                     <option value="Lexus">Lexus</option>    
 				</select><br>

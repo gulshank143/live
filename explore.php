@@ -8,6 +8,7 @@
 <?php
 require 'header.php';
 ?>
+
 <br><br>
 <h2 align="center" style="background-color: white;color: black">Rental Policies from Wheels-UP Car Rental</h2>
 <br>
