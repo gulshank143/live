@@ -148,7 +148,15 @@ img {vertical-align: middle;}
 <body>
 
     <?php
-        require_once 'header.php';
+    session_start();
+
+if (!isset($_SESSION['username']) || $_SESSION['id'] != 1337) { //not logged in
+
+    require_once 'header.php';
+
+}
+else
+  require_once 'header2.php';
     ?>
 <br>
 
@@ -251,5 +259,6 @@ function showSlides(n) {
         require_once 'footer.php';
     ?>
 </h6>
+
 </body>
 </html>

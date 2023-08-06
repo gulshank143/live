@@ -59,10 +59,12 @@
 				</select><br>
 
 			<br><button onclick="myfunction()" style="background-color: gray">Calculate </button>
+			
 			</label>
 			<div class="result"></div>
 		</fieldset>
 	</form>
+	
 
 </div>
 </body>
